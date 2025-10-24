@@ -20,6 +20,15 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  ...compat.config({
+    extends: ["next/core-web-vitals", "next/typescript", "prettier"],
+    rules: {
+      semi: ["error"],
+      quotes: ["error", "double"],
+      "prefer-arrow-callback": ["error"],
+      "prefer-template": ["error"],
+    },
+  }),
 ];
 
 export default eslintConfig;

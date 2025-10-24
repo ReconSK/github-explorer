@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next
+out
+dist
+build
+.vercel
+
+# Lock files
+*.lock
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+.vscode
